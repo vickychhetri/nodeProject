@@ -5,6 +5,7 @@
   "main": "server.js",
   "author": "vicky chhetri",
   "license": "ISC",
+  "start": "node server.js",
   "dependencies": {
     "express": "^4.17.1"
   },

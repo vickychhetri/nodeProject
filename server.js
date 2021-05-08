@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 3000;
 app.get('/', function (req, res) {
     res.sendFile(__dirname+"/index.html")
   })
@@ -7,6 +8,6 @@ app.get('/', function (req, res) {
   app.get('/about', function (req, res) {
     res.sendFile(__dirname+"/About.html")
   })
-  app.listen(45000, function(){
-      console.log("Server started on 3000");
+  app.listen(PORT, function(){
+      console.log("Server started on "+PORT);
   })
