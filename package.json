@@ -2,7 +2,7 @@
   "name": "saltme",
   "version": "1.0.0",
   "description": "Hellow World Program to Check node and express",
-  "main": "index.js",
+  "main": "server.js",
   "author": "vicky chhetri",
   "license": "ISC",
   "dependencies": {
