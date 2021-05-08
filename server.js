@@ -7,6 +7,6 @@ app.get('/', function (req, res) {
   app.get('/about', function (req, res) {
     res.sendFile(__dirname+"/About.html")
   })
-  app.listen(3000, function(){
+  app.listen(80, function(){
       console.log("Server started on 3000");
   })
