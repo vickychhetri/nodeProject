@@ -1,0 +1,14 @@
+{
+  "name": "saltme",
+  "version": "1.0.0",
+  "description": "Hellow World Program to Check node and express",
+  "main": "index.js",
+  "author": "vicky chhetri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
